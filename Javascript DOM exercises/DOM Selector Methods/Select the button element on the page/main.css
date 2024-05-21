@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#button{
+    background-color: burlywood;
+    color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    border: burlywood;
+    width: 100px;
+    height: 100px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#button:hover{
+    background-color: rgb(245, 162, 60);
+  }
+
+
+  
