@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(18, 18, 49);
+}
+
+button {
+  background-color: burlywood;
+  color: brown;
+  border-radius: 5px;
+  cursor: pointer;
+  border: burlywood;
+  width: 379px;
+  height: 50px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(245, 162, 60);
+}
+
+input {
+  width: 379px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2.5px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 25px;
+  color: dimgray;
+  margin-bottom: 50px;
+}
